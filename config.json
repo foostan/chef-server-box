@@ -1,0 +1,13 @@
+{
+  "endpoints": [
+    {
+      "type": "chef_server",
+      "options": {
+        "url": "https://localhost",
+        "client_name": "admin",
+        "client_key": "/etc/chef-server/admin.pem",
+        "ssl_verify": false
+      }
+    }
+  ]
+}
