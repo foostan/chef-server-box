@@ -4,7 +4,7 @@ chef-server-box is utility tools for serving Chef Server.
 ## What is included?
 This docker image include
 - Ruby 2.0.0
-- Chef Server (use base/chef-server)
+- Chef Server (use [base/chef-server](https://github.com/tmc/dockerfiles/tree/master/chef-server))
 - Chef Client
 - Berkshelf API Server
 - SSH Server
