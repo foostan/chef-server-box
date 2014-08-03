@@ -16,7 +16,7 @@ Running processes on a container by Supervisor
 
 ## Usage
 ```
-> docker run -d -p 443:443 -p 22:10022 -p 26200:26200 foostan/chef-server-box
+> docker run -d -p 443:443 -p 10022:22 -p 26200:26200 foostan/chef-server-box
 ```
 
 ## Contributing
